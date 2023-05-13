@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--- 1) Evite estilos Inline, como no exemplo -->
+    <p style="color:violet;">
+        Esse é um paragráfo com CSS INLINE
+    </p>
+    <!--- 2) Evitar tags de formatação-->
+    <p>Isso é um texto com <b>formatado</b>.</p>
+    <!--Bom-->
+    <p>Isso é um texto <span class="texto_negrito">formatado</span>. </p>
+    <!--3)Digite em minúsculo-->
+    <h1>ISSO É UM TÍTULO</h1>
+    
+    <h1 class="texto_maiusculo">Isso é um título</h1>
+
+    <!--40Utilize sempre validações do HTML required e type-->
+    <input type="email" name="email" id="email"
+    placeholder="Informe o email" required>
+
+
+    <br>
+
+    <!--5) Use o atríbuto ALT-->
+    <img src="luffy.jpg" class="luffy" alt=" Esse é o Monkey D. Luffy">
+
+
+    <!--6) Utilize shorthands-->
+    <div class="texto_espacado">
+        Um texto com espaçamento interno estilizado.
+    </div>
+
+    <!--7) Utilize unidades de medidas relativas-->
+
+    <p class="paragrafo_relativo">
+        Parágrafo com uma unidade de medida relativa.
+    </p>
+
+     
+</body>
+</html>

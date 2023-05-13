@@ -1,0 +1,21 @@
+.texto_negrito {
+    font-weight: bold;
+}
+
+.texto_maiusculo {
+    text-transform: uppercase;
+}
+
+.luffy {
+    width: 100px;
+}
+
+.texto_espacado {
+    padding: 10px;
+}
+
+/* 8) Não utilize dados sensíveis e nem em excesso--> */
+
+.paragrafo_relativo{
+    font-size: 1.5rem;
+}

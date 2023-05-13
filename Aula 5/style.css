@@ -1,0 +1,18 @@
+h2 {
+    border: 2px solid green;
+}
+
+/* UTLIZANDO CLASSES */
+.titulopersonalizado {
+    border: 2px chocolate;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* UTILIZANDO ID */
+
+#paragrafopersonalizado {
+    color: blue;
+    background-color: pink;
+    font-size: 28px;
+}

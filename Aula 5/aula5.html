@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 5 - introdução ao CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* ESTE É UM EXEMPLO DE COMENTÁRIO É UTLIZADO * E /   */
+        /* UTLIZAÇÃO DO CSS INLINE*/
+        body {
+            background-color: aquamarine;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <!---ESTILIZAÇÃO DE CSS EMBUTIDO EM HTML-->
+    <h1>Estilização com CSS</h1>
+    <p>Paragráfo com cor.</p>
+
+    <h1 style="color:rgb(3, 1, 5);text-align: right;">APLICANDO CSS EMBUTIDO</h1>
+    <p style="color:rgb(219, 1, 1);text-align: right; font-size: 16px;">Um paragráfo com style.</p>
+
+    <h2>Título com CSS externo</h2>
+
+    <!--EXEMPLO COM SELETORES DE CLASSE-->
+
+    <h2>Exemplo com seletores de classe</h2>
+    
+    <div class="titulopersonalizado">
+        Esse é um exemplo de conteúdo com classes de CSS.
+    </div>
+    
+    <p id="paragrafopersonalizado">Esse é um exemplo de conteúdo com ID de CSS.</p>
+
+</body>
+
+</html>

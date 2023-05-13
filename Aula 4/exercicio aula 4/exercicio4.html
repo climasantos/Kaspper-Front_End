@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <table border="1">
+        <tr>
+            <td>
+                <label for="nome do candidato">Nome do candidato:</label>
+                <input type="text" name="nome do candidato" id="nome do candidato">
+            </td>
+        </tr>
+            
+            <!--UTILIZAÇÃO DA TAG "SELECT" PARA CLASSIFICAR GÊNEROS-->
+          <tr>
+            <td>
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </td>
+         </tr>
+        <tr>
+             <td>       
+                <label for="time">Time:</label>
+                <input type="text" name="time" id="time">
+            </td> 
+        </tr>  
+
+    
+    <!--DADOS FINANCEIROS-->
+
+<tr>
+    <td>
+        <label for="renda">Renda:</label>
+    <input type="text" name="renda" id="renda">
+    </td>
+
+</tr>  
+    
+<tr>
+    <td>
+    <label for="carto de credito">Cartão de crédito:</label>
+    <input type="text" required pattern="[0-9]{4}[-][0-9]{4}[-][0-9]{4}[-][0-9]{4}">
+    </td>
+</tr>     
+    
+    <!---"BOTÕES"-->
+    <tr>
+        <td>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </td>
+    </tr>
+    
+
+</table>
+</body>
+
+</html>

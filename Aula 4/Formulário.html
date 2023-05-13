@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário em HTML 5</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Informe seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required placeholder="Email">
+
+        <label for="Datanascimento:">Data de nascimento</label>
+        <input type="date" name="data de nascimento" id="data de nascimento">
+
+        <label for="mes">Mês</label>
+        <input type="month" name="mes" id="mes">
+
+        <label for="idade">Idade:</label>
+        <input type="number" min="18" max="80" name="idade" id="idade">
+        
+        <label for="regiao">Região:</label>
+        <input type="radio" name="regiao" id="regiao" value="sul">Sul
+        <input type="radio" name="regiao" id="regiao" value="sudeste">Sudeste
+        <input type="radio" name="regiao" id="regiao" value="nordeste">Nordeste
+        <input type="radio" name="regiao" id="regiao" value="centro-oeste">Centro-oeste
+        <input type="radio" name="regiao" id="regiao" value="norte">Norte
+
+        <label for="estados">UF:</label>
+        <select name="estados" id="estados">
+            <option value="pe">Pernambuco</option>
+            <option value="rs">Rio grande do Sul</option>
+            <option value="sp">São paulo</option>
+            <option value="sc">Santa catarina</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea name="mensagem" id="mensagem" cols="20" rows="10"></textarea>
+
+        <label for="placa">Placa</label>
+        <input type="text" required pattern="[A-Z]{3}[0-9]{4}">
+
+        <br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+
+    </form>
+    
+</body>
+</html>
